@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.weatherStatus {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: center;
+  font: 14pt Verdana;
+  color:steelblue
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+.date_format {
+  color:darkcyan;
+  font:12pt Segoe WP SemiLight bold;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.date_format_date {
+  color:darkcyan;
+  font:12pt bold;
+  font-weight: 800;
+  margin-right: 50px;
+  margin-left: 50px;
+}

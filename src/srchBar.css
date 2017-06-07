@@ -1,0 +1,22 @@
+.divBar {
+ width:200px;
+ height:35px;
+ display:inline;
+ horiz-align: center;
+ vertical-align: top;
+ margin-inside: 0;
+}
+.input {
+ height:inherit;
+ border-radius: 8px;
+ border: 1px solid darkgrey;
+}
+.button {
+ margin: 0;
+ height:inherit;
+ border-radius: 8px;
+ border: none;
+ opacity:0.4;
+ background-color:lightskyblue;
+ /*color:darkslategrey;*/
+}
